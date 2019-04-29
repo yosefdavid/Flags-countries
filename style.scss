@@ -1,0 +1,88 @@
+
+body {
+
+    .container {
+
+        margin-top: 30px;
+
+        .titleHeader{
+            font-style: italic;
+            font-family: initial;
+            font-weight: bold;
+            background-color: bisque;
+        }
+
+        nav {
+
+            .allCountriesBtn {
+                text-align: center;
+            }
+
+            .rowNav{
+                margin-top: 10px;
+
+                .allCountriesBtn , .searchBtn{
+                    font-weight: bold;
+                }
+
+            }
+
+            .searchInp{
+                width: 180px;
+                float: left;
+            }
+
+        }
+
+        .titel {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .countriesContiner {
+            text-align: center;
+            margin-top: 20px;
+            .card {
+                display: inline-block;
+                margin-left: 5px;
+                margin-bottom: 15px;
+                border: 1px solid black;
+
+                .card-text {
+                    height: 47px;
+                }
+
+            }
+
+            img {
+                width: 334px;
+                height: 187px;
+                border-radius: 3px;
+            }
+
+        }
+
+        .searchContiner {
+            text-align: center;
+            margin-top: 20px;
+            .card {
+                display: inline-block;
+                margin-bottom: 15px;
+                border: 1px solid black;
+
+                .card-text {
+                    height: 47px;
+                }
+            }
+
+            img {
+                width: 334px;
+                height: 187px;
+                border-radius: 3px;
+            }
+  
+        }
+
+    }
+
+}

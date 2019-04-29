@@ -1,0 +1,76 @@
+body .container {
+  margin-top: 30px;
+}
+
+body .container .titleHeader {
+  font-style: italic;
+  font-family: initial;
+  font-weight: bold;
+  background-color: bisque;
+}
+
+body .container nav .allCountriesBtn {
+  text-align: center;
+}
+
+body .container nav .rowNav {
+  margin-top: 10px;
+}
+
+body .container nav .rowNav .allCountriesBtn, body .container nav .rowNav .searchBtn {
+  font-weight: bold;
+}
+
+body .container nav .searchInp {
+  width: 180px;
+  float: left;
+}
+
+body .container .titel {
+  text-align: center;
+  margin-top: 20px;
+}
+
+body .container .countriesContiner {
+  text-align: center;
+  margin-top: 20px;
+}
+
+body .container .countriesContiner .card {
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+}
+
+body .container .countriesContiner .card .card-text {
+  height: 47px;
+}
+
+body .container .countriesContiner img {
+  width: 334px;
+  height: 187px;
+  border-radius: 3px;
+}
+
+body .container .searchContiner {
+  text-align: center;
+  margin-top: 20px;
+}
+
+body .container .searchContiner .card {
+  display: inline-block;
+  margin-bottom: 15px;
+  border: 1px solid black;
+}
+
+body .container .searchContiner .card .card-text {
+  height: 47px;
+}
+
+body .container .searchContiner img {
+  width: 334px;
+  height: 187px;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=style.css.map */
